@@ -1,0 +1,36 @@
+{
+  "name": "ecg-nn-browser",
+  "version": "1.0.0",
+  "description": "Browser components for ecg classification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corrodize/ECG-NN-Browser.git"
+  },
+  "author": "Michel Neumann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Corrodize/ECG-NN-Browser/issues"
+  },
+  "homepage": "https://github.com/Corrodize/ECG-NN-Browser#readme",
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "fili": "^2.0.1",
+    "keras-js": "^1.0.2",
+    "numjs": "^0.15.1",
+    "webdnn": "^1.2.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-better-rollup": "^3.0.0",
+    "gulp-connect": "^5.2.0",
+    "rollup": "^0.55.0",
+    "webpack": "^3.10.0",
+    "webpack-stream": "^4.0.0"
+  }
+}
